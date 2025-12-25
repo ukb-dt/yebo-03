@@ -18,7 +18,7 @@
 {% endraw %}
 
 > *Abideth these three:*          
-> *(Bio)mass, signal, energy*        
+> *(Bio)mass, signal, [energy](https://ukb-dt.github.io/dt/)*        
 > *The greatest of all is ..*        
 > -- Ilya Zosima
 
