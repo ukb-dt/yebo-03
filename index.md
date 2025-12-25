@@ -46,7 +46,7 @@ $$
   <p style="margin-top: 8px; font-style: italic; color: #666;">Dynamic flow: confluence of brooks & convergence of patterns</p>
 </div>
 
-Rain is a distillate from the ecosystem. So when it returns to the landscape as raindrops, in SGD, ultimately forming brooks, it captures the [errors](https://www.gutenberg.org/files/37841/37841-h/37841-h.html) of [human behavior](https://www.gutenberg.org/files/100/100-h/100-h.htm) phase-by-phase. In Kampala we witness the Nakivubo & Lugogo channels and carrying sludge, ultimately black, with polythene and so many plastics. The user behavior (UB) of the household, firm, government are captured in this ledger approaching south-eastern swamps as the “return” to lake Victoria (UI/UX). This shit has almost made me an environmentalist--but an avowed critique of *das kapital*. 
+Rain is a distillate from the ecosystem. So when it returns to the landscape as raindrops, in SGD, ultimately forming brooks, it captures the [errors](https://www.gutenberg.org/files/37841/37841-h/37841-h.html) [of](https://themarginaliareview.com/shakespeare-contra-nietzsche-andrew-lanham/) [human behavior](https://www.gutenberg.org/files/100/100-h/100-h.htm) phase-by-phase. In Kampala we witness the Nakivubo & Lugogo channels and carrying sludge, ultimately black, with polythene and so many plastics. The user behavior (UB) of the household, firm, government are captured in this ledger approaching south-eastern swamps as the “return” to lake Victoria (UI/UX). This shit has almost made me an environmentalist--but an avowed critique of *das kapital*. 
 
 ## 2
 It’s pretty for the same reason a well-designed bridge looks inevitable rather than impressive. The beauty isn’t decoration; it’s constraint doing its quiet work.
