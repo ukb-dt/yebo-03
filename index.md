@@ -37,7 +37,7 @@ $$
 <div style="text-align: center; margin: 30px 0;">
   <img src="basin/kla.jpg" 
        alt="Water flowing and carving through mountainous terrain – gradient descent metaphor" 
-       style="max-width: 85%; height: auto; border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.2);">
+       style="max-width: 55%; height: auto; border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.2);">
   <p style="margin-top: 8px; font-style: italic; color: #666;">Dynamic flow: confluence of brooks & convergence of patterns</p>
 </div>
 
