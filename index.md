@@ -242,7 +242,7 @@ Until then, the channels will keep doing calculus on our behalf.
 <div style="position: relative; width: 100%; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe
     src="https://www.youtube.com/embed/cHsRczaEDDQ"
-    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"
+    style="position: absolute; top: 0; left: 0; width: 53%; height: 100%; border: 0;"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
     allowfullscreen>
   </iframe>
