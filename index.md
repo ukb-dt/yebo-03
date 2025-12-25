@@ -17,6 +17,11 @@
 </script>
 {% endraw %}
 
+> *Abideth these three:*          
+> *(Bio)mass, signal, energy*        
+> *The greatest of all is ..*        
+> -- Ilya Zosima
+
 # [O](https://ukb-dt.github.io/yebo-01/)
 ## [1](https://ukb-dt.github.io/yebo-04/)
 
