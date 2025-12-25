@@ -19,7 +19,7 @@
 
 > *Abideth these three:*          
 > *(Bio)mass, signal, [energy](https://ukb-dt.github.io/dt/)*        
-> *The greatest of all is ..*        
+> *The greatest of all [is](https://ukb-dt.github.io/yebo-04/) ..*        
 > -- Ilya Zosima
 
 # [O](https://ukb-dt.github.io/yebo-01/)
