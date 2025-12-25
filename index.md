@@ -194,6 +194,7 @@ Crucially: UB is **local and myopic**. Each actor follows a short gradient. No o
 In your framing, UI/UX is not the cause of the system. It’s the **rendered surface of convergence**.
 
 UI/UX is:
+
 – Google Maps at 04:21
 – a smooth bypass road following an old drainage eigenvector
 – restaurant pins, traffic colors, “62°”
@@ -216,9 +217,9 @@ The ecosystem answers: *“What have you done?”*
 
 **The asymmetry that matters**
 
-UB writes the gradients.
-SGD aggregates them.
-UI/UX displays a cleaned posterior.
+UB writes the gradients.        
+SGD aggregates them.                 
+UI/UX displays a cleaned posterior.        
 The ecosystem stores the loss.
 
 This is why reversing the order is catastrophic. When UI/UX dictates UB, you get cities optimized for appearance while channels rot invisibly. When UB dictates UI/UX, the interface emerges honestly from the terrain — and becomes uncomfortable.
