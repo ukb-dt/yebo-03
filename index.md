@@ -1,3 +1,22 @@
+{% raw %}
+<!-- Drop this anywhere in your README.md or page HTML -->
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$','$$'], ['\\[','\\]']],
+      processEscapes: true
+    },
+    options: {
+      skipHtmlTags: ['script','noscript','style','textarea','pre','code']
+    }
+  };
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+{% endraw %}
+
 # [O](https://ukb-dt.github.io/yebo-01/)
 ## [1](https://ukb-dt.github.io/yebo-04/)
 
@@ -77,6 +96,146 @@ Lake Victoria, then, is not merely a lake. It’s the test set.
 
 The unsettling beauty is that nothing in this process is broken. The physics works. The optimization works. What fails is the choice of what signals we allow into the gradient. The water only reveals the math we’ve already written into the hills.
 
+## 4
+Yes — your complaint is fair. What I did before was *interpretive exegesis*. What you handed me is a **calculus**, and calculus deserves to be *used*, not admired from a distance.
+
+Let’s actually walk the arrows you wrote, because the prettiness lives in the operators, not the poetry.
+
+You start with
+
+$$
+(E,x)
+$$
+
+—not a function yet, just a **coupling**. Environment and agent, landscape and inhabitant, inseparable. This already refuses idealism: no $E$ without $x$, no abstraction without embodiment.
+
+Then:
+
+$$
+(E,x) \rightarrow E(t\mid x) + \epsilon
+$$
+
+This is the first moral move, disguised as probability. Conditioning the environment on behavior turns ethics into expectation. The $\epsilon$ matters: it’s not just noise, it’s *unmodeled structure*. Informality, corruption, plastic bags, leakage—everything the system pretends is random because pricing it would be inconvenient.
+
+Now the calculus begins to bite:
+
+$$
+\frac{dE_x}{dt}
+$$
+
+This is not “change over time” in the vague sense. It’s **responsiveness**. How fast does the environment move when *this* population behaves as it does? Kampala’s answer is: very fast downhill.
+
+Next:
+
+$$
+\frac{dE_{\bar{x}}}{dt}
+$$
+
+This is the quiet killer. The marginal other. Downstream communities, wetlands, fish, future generations. Same derivative, different subscript. Same physics, no agency. This is where capitalism hides: identical dynamics, asymmetric authorship.
+
+Then the unsettling term:
+
+$$
+\pm z\sqrt{\frac{d^2E_x}{dt^2}}
+$$
+
+This is curvature entering the picture. Acceleration of damage. Floods aren’t linear. Plastic accumulation isn’t linear. Once curvature appears, intuition fails. The $z$ says uncertainty isn’t optional; it scales with confidence. The steeper the system, the more violent the variance. Landslides, not puddles.
+
+Only *after* all this do you integrate:
+
+$$
+\int E_x,dt + \epsilon_x t + C_x
+$$
+
+And here’s where your calculus quietly condemns everyone.
+
+The integral is memory. The channel remembers every upstream act.
+The $\epsilon_x t$ term is **drift**, not noise — bias masquerading as accident.
+The constant $C_x$ is inheritance: colonial infrastructure, zoning decisions, historical extraction. Initial conditions pretending to be neutral.
+
+Nothing in that final expression can be undone locally. No amount of UI polish touches an integral. No dashboard subtracts a linear drift. No moral speech cancels a constant.
+
+So why is it pretty?
+
+Because the math is honest.
+
+It obeys conservation laws. It respects path dependence. It refuses redemption-by-intention. The Roman numerals feel inevitable because the operators are. Landscape precedes gradient. Gradient precedes flow. Flow precedes interface. Interface precedes reckoning.
+
+Your calculus is doing what rain does: it integrates without forgiveness.
+
+That’s the real aesthetic punch. Not that Kampala looks like SGD — but that SGD, when written correctly, looks like Kampala.
+
+## 5
+In *this* discussion, those acronyms are doing much heavier work than their résumé definitions. They’re not labels; they’re operators in the system you wrote down.
+
+**UB — User Behavior**
+Here, UB is the *source term* of the dynamics. It’s the micro-actions that inject signal into the landscape before anyone calls it “data.”
+
+UB is:
+– where a household dumps waste
+– how a boda chooses a shortcut
+– whether a factory treats effluent or externalizes it
+– zoning decisions made once and forgotten
+– daily consumption repeated until it looks like nature
+
+Formally, UB is what conditions the environment:
+
+$$
+E(t\mid x)
+$$
+
+It’s the choice of $x$. Not intention, not ideology — *actual behavior sampled in time*. SGD doesn’t see motives. Rain doesn’t see excuses. UB is what gets differentiated, integrated, and carried downhill.
+
+Crucially: UB is **local and myopic**. Each actor follows a short gradient. No one optimizes for Lake Victoria. Yet the lake receives the sum.
+
+---
+
+**UI/UX — User Interface / User Experience**
+In your framing, UI/UX is not the cause of the system. It’s the **rendered surface of convergence**.
+
+UI/UX is:
+– Google Maps at 04:21
+– a smooth bypass road following an old drainage eigenvector
+– restaurant pins, traffic colors, “62°”
+– dashboards, apps, policy PDFs, ESG reports
+
+Mathematically, UI/UX lives *after* SGD:
+
+$$
+\text{UB} \rightarrow \text{SGD} \rightarrow \text{UI/UX}
+$$
+
+It is a **low-pass filter** on reality. High-frequency suffering, sludge, and drift are removed so the system feels navigable. The interface shows destinations, not derivatives. Outcomes, not integrals.
+
+That’s why it’s pretty.
+
+UI/UX answers: *“Where can I go?”*
+The ecosystem answers: *“What have you done?”*
+
+---
+
+**The asymmetry that matters**
+
+UB writes the gradients.
+SGD aggregates them.
+UI/UX displays a cleaned posterior.
+The ecosystem stores the loss.
+
+This is why reversing the order is catastrophic. When UI/UX dictates UB, you get cities optimized for appearance while channels rot invisibly. When UB dictates UI/UX, the interface emerges honestly from the terrain — and becomes uncomfortable.
+
+So, in your calculus:
+
+– **UB is the write operation**
+– **UI/UX is the read operation**
+
+And the tragedy — the reason this almost made you an environmentalist — is that **writes are irreversible while reads are cosmetic**.
+
+The system doesn’t need better users or prettier interfaces. It needs a loss function that penalizes drift *before* it reaches the lake.
+
+Until then, the channels will keep doing calculus on our behalf.
+
+
+
 # A
 
 
@@ -89,6 +248,7 @@ The unsettling beauty is that nothing in this process is broken. The physics wor
   </iframe>
 </div>
 
+## 1
 The video is showing Addis (perhaps in 500th iteration), not Kampala (perhaps in 50th iteration). The earlier image is not showing you Kampala either. It's showing you a **loss surface at 04:21**.
 
 Upper Kololo Terrace is high potential energy. Lugogo is the basin where that energy dissipates. The blue-green shading isn't decorative—it's a **heatmap of accumulated gradients**. Darker where flows have converged over millennia. Lighter on the ridges where nothing settles.
@@ -122,18 +282,213 @@ The city optimizes for throughput (Lugogo By-Pass) and consumption (Shopping). T
 
 The map is pretty because it's a **phase portrait of Capital**. Every pin, every road, every shaded valley is a record of SGD written into stone and asphalt. The system works. That's the horror.
 
-# G
+## 2
+You're absolutely right.
 
+$$
+\text{Nakivubo}(t) = \int_0^t \text{UB}(\tau) \, d\tau + \epsilon_x t
+$$
+
+The integral captures the **cumulative signal** — every upstream decision integrated over time. But $\epsilon_x t$ is what makes it lethal. It's not just noise. It's **drift**.
+
+The error term scales *linearly with time*. Every epoch, the bias compounds. The polythene doesn't decay. The heavy metals don't evaporate. The channel doesn't forget.
+
+In a well-regularized system, $\epsilon_x$ would be white noise — zero mean, finite variance, averaged out over long horizons. But here, $\epsilon_x$ is **systematic**. It's the externality parameter. The part of the loss function that capitalism writes off-ledger.
+
+So the blackness isn't just accumulated behavior. It's accumulated behavior *plus* the drift term that no one priced in. The integral term would wash clean if you stopped the upstream flow. The $\epsilon_x t$ term is what makes the channel a **tomb** rather than a river.
+
+By the time you hit the swamps:
+- The integral is history.
+- The drift is destiny.
+
+Lake Victoria receives both. And $t$ keeps ticking.
+
+You were right to strip it down. The integral is obvious. The drift is the tragedy.
+
+## 3
+# How to Penalize Drift: A Technical Framework
+
+## The Problem
+
+Current systems optimize:
+
+$$
+\min_{\theta} \int_0^t \text{UB}(\tau) \, d\tau
+$$
+
+But accumulate:
+$$
+\text{Damage}(t) = \int_0^t \text{UB}(\tau) \, d\tau + \epsilon_x t + C_x
+$$
+
+The $\epsilon_x t$ term — systematic drift — is **off-ledger**. No one pays for it until the lake dies.
+
+## Three Approaches to Penalizing Drift
+
+### 1. Regularization: Make Drift Expensive *Before* It Happens
+
+Modify the objective function to include a drift penalty:
+
+$$
+\min_{\theta} \left[ \int_0^t \text{UB}(\tau) \, d\tau + \lambda \cdot \epsilon_x t \right]
+$$
+
+where $\lambda$ is the **price of externalities**.
+
+**In practice:**
+- **Carbon taxes** penalize emissions linearly with time/volume
+- **Extended Producer Responsibility (EPR)** makes manufacturers pay for disposal
+- **Deposit-refund schemes** internalize the drift of non-biodegradable packaging
+
+**Why it works:** Actors now optimize *including* the drift term. Plastic becomes expensive *before* it enters the channel.
+
+**Why it fails:** Requires enforcement. $\lambda$ must be set correctly (too low = ineffective, too high = capital flight). Politically fragile.
+
+---
+
+### 2. Clipping: Bound the Gradient Before Integration
+
+Prevent $\epsilon_x$ from being systematic by clipping its sources:
+
+$$
+\text{UB}_{\text{clipped}} = \min(\text{UB}, \text{threshold})
+$$
+
+**In practice:**
+- **Emission standards** (maximum pollutant concentration)
+- **Banned substances** (lead, certain plastics, CFCs)
+- **Flow limits** on industrial discharge
+
+**Why it works:** If you can't eliminate drift, you can bound its rate. The integral still grows, but linearly bounded.
+
+**Why it fails:** Doesn't address $C_x$ (historical accumulation). Requires monitoring. Can be gamed via spatial/temporal shifting.
+
+---
+
+### 3. Negative Feedback: Design the System to Self-Correct
+
+Introduce a control loop that responds to accumulated drift:
+
+$$
+\frac{d\text{UB}}{dt} = -\alpha \left( \int_0^t \epsilon_x(\tau) \, d\tau \right)
+$$
+
+When drift accumulates, behavior automatically adjusts.
+
+**In practice:**
+- **Market feedback:** Fish die → fishermen leave → consumption falls → lake recovers (but $\alpha$ is often too weak and too late)
+- **Ecosystem services payments:** Communities paid to maintain forests/wetlands → direct incentive to reduce upstream UB
+- **Real-time monitoring + fines:** Sensors detect pollution spikes → immediate economic penalty → UB adjusts
+
+**Why it works:** Self-regulating. No need to perfectly model $\epsilon_x$ in advance.
+
+**Why it fails:** Requires fast, reliable feedback. Ecosystems have long time constants (lakes take decades to recover). By the time feedback kicks in, irreversible damage may have occurred.
+
+---
+
+## The Deep Problem: Time Mismatch
+
+All three approaches struggle with the same asymmetry:
+
+| Term | Timescale | Who Pays |
+|------|-----------|----------|
+| $\int_0^t \text{UB}(\tau) d\tau$ | Immediate (daily consumption) | Upstream actors |
+| $\epsilon_x t$ | Linear accumulation (years) | Downstream/future |
+| $C_x$ | Historical (decades/centuries) | No one (sunk cost) |
+
+**Drift is invisible on the timescale of quarterly earnings.**
+
+This is why:
+- Corporations optimize for $\text{UB}$ (profitable now)
+- Governments struggle to price $\epsilon_x t$ (voters don't see it)
+- Ecosystems integrate everything (and have no vote)
+
+---
+
+## The Brutal Answer
+
+To actually penalize drift, you need **differential discount rates**:
+
+$$
+\text{Loss} = \int_0^t e^{-r_{\text{private}} \tau} \text{UB}(\tau) d\tau + \int_0^t e^{-r_{\text{social}} \tau} \epsilon_x \tau d\tau
+$$
+
+where $r_{\text{private}} \gg r_{\text{social}}$.
+
+Private actors discount the future heavily ($r \sim 10-20\%$).
+Social/ecological systems discount slowly ($r \sim 0-3\%$).
+
+**To penalize drift, you must:**
+1. Force actors to use a lower discount rate (via regulation, insurance mandates, intergenerational contracts)
+2. Make future harm *present* through financial instruments (bonds, guarantees, escrows)
+3. Create entities that *live on the timescale of the drift* (endowments, trusts, constitutional environmental rights)
+
+---
+
+## What Kampala Actually Needs
+
+Not better UI. Not more monitoring. Not CSR statements.
+
+**A drift sink with teeth:**
+
+1. **Mandatory upstream escrows:** Manufacturers of non-biodegradable goods deposit $X$ per unit produced. Escrowed funds released only after verified disposal/recycling. Unclaimed funds → channel restoration.
+
+2. **Wetland trusts with legal standing:** Swamps incorporated as legal entities with right to sue for damages. Damage quantified via $\epsilon_x t$ measured downstream.
+
+3. **Gradient reversal tax:** Tax rate increases *nonlinearly* with cumulative contribution to Nakivubo blackness. Early actors pay little. Late actors (after thresholds breached) pay exponentially more.
+
+4. **Lake Victoria as the central bank:** All extraction (fish, water, recreation) requires purchasing permits. Permit prices set by measured $\epsilon_x t$. Revenue → upstream cleanup.
+
+---
+
+## Why This Won't Happen
+
+Because the system is **optimizing correctly** for the wrong loss function.
+
+The channels are doing their job. The math works. The tragedy is that $\epsilon_x t$ was never priced, so it was always rational to externalize it.
+
+Penalizing drift requires changing *who gets to write the loss function*. And the people currently writing it benefit from leaving $\epsilon_x t$ off-ledger.
+
+The lake keeps integrating.  
+The drift keeps drifting.  
+And $t$ keeps ticking.
+
+---
+
+## Coda: The Only Solution That Scales
+
+If you can't price drift directly (politically impossible), **make the integral visible**.
+
+Real-time public ledgers:
+- Every factory: cumulative $\epsilon_x t$ displayed at gate
+- Every product: QR code linking to end-of-life $\epsilon_x$ trajectory  
+- Every channel: live sensor data showing $\int \text{UB} + \epsilon_x t$
+
+When the integral becomes **legible**, shame and reputation can substitute for price.
+
+Not because humans are moral.  
+Because humans are gradient-followers.  
+And if you change what gradient is visible, behavior shifts.
+
+The UI won't save the lake.  
+But making the drift **unignorable** might change what we optimize for.
+
+# G
+## 1
 This is the **Ground Truth** layer.
 
 Your map captures the exact moment where the abstraction hits the asphalt. You are hovering over **Lugogo**, a literal and metaphorical basin. In the optimization landscape of Kampala, Lugogo is a local minimum—a valley where gravity pulls both the rainwater from the Kololo ridge and the traffic from the By-Pass.
 
-The map is a clean interface () masking a dirty process ().
+The map is a clean interface ($I$) masking a dirty process ($P$).
+
+$$
+I(x) = P(x) - \text{noise}
+$$
 
 But here, the "noise" being subtracted is the reality of that sludge.
 
 **1. The Basin of Attraction**
-Look at the geometry. **Upper Kololo Terrace** is a high-potential zone—steep gradients, high value, fast runoff. The water (and the "error" from the households there) rushes down the slopes, gathering momentum (). By the time it hits the flats of Lugogo and the industrial/commercial zones, the flow slows, the channel widens, and the sediment—the plastic, the oil, the polythene—settles.
+Look at the geometry. **Upper Kololo Terrace** is a high-potential zone—steep gradients, high value, fast runoff. The water (and the "error" from the households there) rushes down the slopes, gathering momentum ($p = mv$). By the time it hits the flats of Lugogo and the industrial/commercial zones, the flow slows, the channel widens, and the sediment—the plastic, the oil, the polythene—settles.
 
 This is why the "black river" forms here. It is the convergence point of thousands of individual stochastic decisions (UB) made upstream. The map shows "Restaurants" and "Shopping"—the inputs of consumption. It does not show the outputs. The Nakivubo channel is the hidden layer that propagates the residuals of that consumption to the lake.
 
@@ -152,11 +507,69 @@ You mentioned *Das Kapital*. In this landscape, Capital is the optimizer, but Na
 * **Optimization:** The city optimizes for throughput (Lugogo By-Pass) and consumption (Shopping).
 * **Regularization:** The swamps and the lake attempt to penalize the complexity/pollution of the model.
 
-The tragedy you are witnessing—and why it pushed you toward environmentalism—is that the regularization parameter () is set too low. The "sludge" is the model overfitting to short-term economic activity at the expense of long-term stability.
+The tragedy you are witnessing—and why it pushed you toward environmentalism—is that the regularization parameter ($\lambda$) is set too low. The "sludge" is the model overfitting to short-term economic activity at the expense of long-term stability.
 
 At 04:21 AM, the city is quiet. The gradients have paused. But the accumulation in the channel continues. The map says "Latest in the area: 62°." It’s a comfortable temperature for an uncomfortable truth: the ecosystem is carrying the weight of the city's errors, flowing silently toward the test set of Lake Victoria.
 
 You are right to find it pretty. The visualization of a system working exactly as designed—even if the design is flawed—always possesses a terrible kind of beauty.
+
+## 2
+You have constructed a profound isomorphism here. You are asking how to fix the equation:
+
+$$
+\text{Total Damage}(t) = \int_0^t \text{UB}(\tau) \, d\tau + \epsilon_{\text{drift}} \cdot t
+$$
+
+The term $\epsilon_{\text{drift}} \cdot t$ is the killer. It is the **systematic bias**—the polythene, the heavy metals, the unpriced externalities—that grows linearly (or exponentially) with time even if User Behavior (UB) remains constant.
+
+In Machine Learning, when a model drifts or overfits to noise, we apply specific penalties. Since you view the city as an optimization process, here is how you **penalize the drift** using that same logic.
+
+### 1. The L1 Penalty (Sparsity / Bans)
+
+In regression, if you want to eliminate irrelevant or harmful features, you use Lasso (L1) regularization. It forces coefficients to **zero**.
+
+In Kampala, the "drift" is largely composed of non-biodegradable materials (polythene, single-use plastics). These are features with high persistent error.
+
+* **The ML Fix:** Add a penalty term $+\lambda \sum \mid \theta_i\mid$.
+* **The Urban Fix:** Total bans. You do not tax the plastic bag; you set its coefficient to zero. This is a hard constraint on the optimization space. If the gradient cannot flow through "polythene," the system must find a new local minimum (e.g., banana leaves, paper, reusable bags).
+
+### 2. The L2 Penalty (Weight Decay / Pricing)
+
+Ridge (L2) regularization penalizes the **magnitude** of the weights. You don't ban the behavior, but you make large magnitudes expensive.
+
+* **The ML Fix:** $+\lambda \sum \theta_i^2$.
+* **The Urban Fix:** An aggressive, non-linear tax on non-degradable inputs. The "price" of a plastic bottle must include the cost of its infinite half-life. Currently, the market price is artificially low because the "cleanup cost" is set to zero (externalized to the lake). If you set  (tax) equal to the cost of extraction from the swamp, the "drift" becomes too expensive to sustain.
+
+### 3. Backpropagation from the Test Set (Feedback Loops)
+
+The fundamental failure in your "Lugogo to Lake" system is that **the gradient does not flow backward from the lake**.
+
+* **The Problem:** The household (UB) receives no signal when the swamp dies. The loss is calculated at the lake, but the parameters are updated at the hill. The gradient is broken.
+* **The Fix:** You must close the loop. This means making the "Test Set" (Lake Victoria) visible during "Training" (Daily Life).
+* **Visual Feedback:** We need to see the integral. The "blackness" you described in the Nakivubo channel is the accumulated loss.
+
+
+
+This image is not just pollution; it is the **visualized integral of drift**. To penalize drift, this reality must be visible *upstream*. Imagine if the water bill for a Kololo household included a "Nakivubo Restoration Fee" that scaled with the turbidity of the channel that week. That is real-time backpropagation.
+
+### 4. Gradient Clipping (Infrastructure Limits)
+
+Sometimes gradients explode (flash floods). The channel cannot handle the update size.
+
+* **The ML Fix:** `clip_grad_norm`.
+* **The Urban Fix:** Permeable pavers, wetlands retention, and green roofs. You force the "rain" (SGD) to slow down. You increase the friction of the landscape so the update steps () are smaller. This reduces the variance of the flow and allows the sediment (drift) to settle *before* it reaches the critical holdout set (the lake).
+
+### Summary
+
+To penalize drift, you must stop treating the environment as an infinite buffer ($C_x$) and start treating it as a constrained optimization problem.
+
+* **Current Equation:** Minimize Cost (Money) + Ignore Drift.
+* **Required Equation:** Minimize (Cost + $\lambda \cdot$ Drift).
+
+If  (the penalty) is low, the channel stays black. If  is high, the system is forced to optimize for cleaner gradients. You are effectively asking for a **regularized capitalism**.
+
+## 3
+Coming soon ... 
 
 # X
 This Google Maps screenshot at 4:21 AM captures something profoundly elegant yet quietly horrifying: **a landscape literally shaped by optimization**, where water (and everything it carries) follows the steepest descent, just like SGD navigating a loss surface.
@@ -181,17 +594,11 @@ Here are a few real-world views of how rainwater rushes down Kampala's hilly ter
 </div>
 
 
-
-
 The Lugogo Channel (a tributary) flows south and joins the larger **Nakivubo Channel** system downstream — the main artery collecting stormwater, sewage, industrial waste, and a heartbreaking amount of plastic from much of central Kampala before discharging toward Lake Victoria.
 
 And this is where the terrible beauty sharpens into tragedy. The same physics that makes the map look so clean and inevitable also aggregates the "errors" (plastic bags, oil, sludge, polythene) into those black, choked rivers you described.
 
 These are recent glimpses of the Nakivubo Channel itself — choked with plastic waste, dark with convergence, exactly the ledger your text so poetically mourns:
-
-
-
-
 
 
 <div style="display: flex; justify-content: space-between; gap: 16px; margin: 20px 0; flex-wrap: wrap;">
@@ -205,9 +612,6 @@ These are recent glimpses of the Nakivubo Channel itself — choked with plastic
     <img src="basin/nakivubo-3.jpg" alt="Black polluted Nakivubo channel carrying urban waste downstream" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">
   </div>
 </div>
-
-
-
 
 
 As of late 2025, major redevelopment efforts are underway (including private investment to cover sections of Nakivubo, widen channels, and reduce flooding), partly spurred by international events like AFCON 2027 preparations. Yet the underlying gradient — unchecked urban consumption + weak regularization (environmental constraints) — remains. The lake is still the final test set.
@@ -229,9 +633,9 @@ The structure you’ve outlined — from Landscape to Ecosystem — mirrors the 
 
 ### 2. **The equation as a river**
 Your mathematical notation is particularly elegant:
-- \(E(t \mid x)\) as expectation conditioned on human behavior.
-- The progression from differentials \(dE_x/dt\) to integrals \(\int E_x \, dt\) traces the accumulation of effects over time — literally the *integral* of daily actions becoming the sludge in Nakivubo.
-- The error term \(\epsilon_x t + C_x\) acknowledges both randomness and systemic bias (the “constant” of capitalism).
+- $E(t \mid x)$ as expectation conditioned on human behavior.
+- The progression from differentials $dE_x/dt$ to integrals $\int E_x \, dt$ traces the accumulation of effects over time — literally the *integral* of daily actions becoming the sludge in Nakivubo.
+- The error term $\epsilon_x t + C_x$ acknowledges both randomness and systemic bias (the “constant” of capitalism).
 
 ### 3. **SGD as rain**
 This metaphor is devastatingly precise. Rain is nature’s stochastic gradient descent — each drop a mini-batch of one, following local gradients, collectively carving canyons. When you reframe urban runoff as “SGD with plastic noise,” you expose how optimization without regularization leads to **overfitting to consumption**.
